@@ -28,41 +28,40 @@
   height: 25px;
   display: inline-block;
   color: rgb(60, 72, 91);
+  position: absolute;
   /* line-height: 25px; */
 }
 
-
-.I1 {
-  position: absolute;
-  right: 90%;
+.I1, .I2, .I3 {
   top: 18px;
+
+
+}
+.I1{
+  right: 90%;
 }
 
 .I2 {
   height: 20px;
-  position: absolute;
   right: 75%;
-  top: 18px;
   padding-left: 10px;
   border-left: 1px solid grey;
 }
 
 .I3 {
-  width: auto;
-  height: auto;
-  position: absolute;
   left: 68%;
-  top: 18px;
-  border: none;
 }
 
-i {
+.I3 i {
   font-size: 15px;
   color: rgb(115,	182, 201);
 }
 
-.B1 {
+.B1, .B2 {
   text-align: center;
+}
+
+.B1 {
   width: 80px;
   height: 35px;
   color: rgb(227, 121, 91);
@@ -70,21 +69,16 @@ i {
   background-color: white;
   border-radius: 3px;
   line-height: 30px;
-  position: absolute;
   left: 72%;
   top: 10px;
 }
 
 .B2 {
-  text-align: center;
   width: 150px;
   height: 35px;
   color: white;
-  border: 2px solid rgb(227, 121, 91);
   background-color: rgb(227, 121, 91);
-  border-radius: 3px;
-  line-height: 30px;
-  position: absolute;
+  line-height: 35px;
   left: 80%;
   top: 10px;
 }
