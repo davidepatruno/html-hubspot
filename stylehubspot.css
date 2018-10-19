@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #contenitore-generale {
@@ -11,10 +12,10 @@
 
 /* Inizio CONTENITORE HEADER (header wrap) */
 .header-wrap {
-  margin: auto;
   width: 100%;
-  height: 100px;
+  height: auto;
   border: 2px solid black;
+  position: relative;
 }
 
 .header-fix, .header-upper {
@@ -23,18 +24,21 @@
 }
 
 .header-fix {
-  height: 60px;
   position: fixed;
+  height: 60px;
   border-bottom: 2px solid grey;
+  z-index: 1;
 }
 
 .header-upper {
-  margin-top: 60px;
+  width: 100%;
+  margin-top: 58px;
   height: 100px;
   position: relative;
 }
 
 .header-bottom {
+  width: 100%;
   height: 80px;
   background-color: rgb(54, 64, 80);
   position: relative;
@@ -60,13 +64,19 @@
 }
 
 .I1{
-  right: 90%;
+  right: 85%;
+}
+
+.headerI1-icon, .headerI1-arrow, p, .I2 {
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 8px;
 }
 
 .I2 {
   height: 20px;
-  right: 75%;
-  padding-left: 10px;
+  right: 65%;
+  padding-left: 20px;
   border-left: 1px solid grey;
 }
 
@@ -175,10 +185,56 @@
 
 /* Inizio section1-wrap */
 .section1-wrap {
-  height: 1000px;
+  height: 600px;
   width: 100%;
-  background-color: red;
+  background-color: rgb(86	152	179);
 }
+
+.S1LWwrapped-title {
+  position: relative;
+  left: 100px;
+  top: 80px;
+  width: 450px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+
+.S1LWwrapped-text1 {
+  position: relative;
+  left: 100px;
+  top: 120px;
+  width: 450px;
+  font-size: 15px;
+  color: white;
+  line-height: 30px;
+}
+
+.S1LWwrapped-text2 {
+  position: relative;
+  left: 100px;
+  top: 150px;
+  width: 180px;
+  font-size: 12px;
+  font-weight: lighter;
+  color: white;
+}
+
+.S1LWwrapped-button {
+  position: relative;
+  left: 100px;
+  top: 130px;
+  width: 230px;
+  height: 70px;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 65px;
+  color: rgba(60,	72,	91);
+}
+/* Fine section1-wrap*/
 
 .section2-wrap {
   height: 1000px;
