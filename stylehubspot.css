@@ -238,23 +238,25 @@
 
 /* Inizio section2-wrap*/
 .section2-wrap {
-  height: 1000px;
+  height: auto;
   width: 100%;
   background-color: yellow;
 }
 
 .wrappercentrale {
   height: auto;
-  width: auto;
+  width: 1000px;
+  margin: auto;
 }
 
+/* Inizio wrapper-centrale-title */
 .wrappercentrale-title {
   width: 1000px;
   height: 420px;
   background-color: green;
   margin: auto;
-  position: relative;
-  top: 50px;
+  /* position: relative; */
+  /* top: 50px; */
 }
 
 .WCTwrapped-image {
@@ -291,29 +293,35 @@
 
 /*Inizio wrappercentrale-head-section*/
 .wrappercentrale-head-section {
-  position: relative;
+  /* position: relative; */
   width: 1000px;
-  height: 500px;
+  height: auto;
   margin: auto;
-  top: 50px;
-  background-color: brown;
+  /* top: 50px; */
+  background-color: green;
+}
+
+.WHSwrappergenerale {
+  height: 350px;
+  width: 1000px;
+  background-color: red;
 }
 
 .WCHwrapped-section-left {
   width: 400px;
-  height: 400px;
+  height: 350px;
   background-color: black;
   float: left;
 }
 
 .WCHSL-image {
-  width: 205px;
-  height: 150px;
+  width: 250px;
+  height: 180px;
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/CRM-Illustration.svg?t=1539870950422");
   background-size: cover;
   position: relative;
-  left: 30%;
-  top: 20px;
+  left: 20%;
+  top: 30px;
 }
 
 .WCHSL-button {
@@ -325,14 +333,133 @@
   line-height: 50px;
   border-radius: 4px;
   position: relative;
-  left: 35%;
-  top: 40px;
+  left: 32%;
+  top: 60px;
 }
 
 .WCHwrapped-section-right {
   width: 600px;
-  height: 400px;
+  height: 350px;
   background-color: blue;
   float: right;
+}
+
+.WCHSR-upper-title {
+  color: rgb(60, 72, 91);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.WCHSR-upper-text {
+  width: 550px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.WCHSR-bottom-title {
+  margin-top: 30px;
+}
+
+.WCHSR-bottom-title p {
+  font-size: 15px;
+  display: inline-block;
+}
+
+.WCHSR-bottom-title hr {
+  width: 300px;
+  border: 1px solid rgb(60, 72, 91);
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.WCHSR-bottom-items {
+  margin-top: 20px;
+}
+
+.WCHSRB {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 12px;
+}
+
+.WCHSRB i {
+  color: rgb(227, 121, 91);
+  padding-right: 5px;
+  font-size: 15px;
+}
+/* Fine wrapper-centrale-head section */
+
+/*Inizio wrapper-centrale-bottom-section*/
+.wrappercentrale-bottom-section {
+  /* position: relative; */
+  width: 1000px;
+  height: auto;
+  background-color: red;
+  border: 1px solid transparent;
+  /* position: relative; */
+  /* top: 370px; */
+  /* margin: auto; */
+}
+
+.WCBS-wrappergenerale {
+  width: 950px;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  background-color: green;
+}
+
+.wrappercentrale-leftbottom-section {
+  width: 300px;
+  height: 650px;
+  /* margin: auto; */
+  background-color: azure;
+  display: inline-block;
+  /* float: left; */
+}
+
+.WCBLBwrapped-top, .WCBLBwrapped-bottom {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  border-bottom: 1px solid black;
+}
+
+.WCBLB-wt-image {
+  background-image: url("https://www.hubspot.com/hubfs/Marketing-Hub-Free.svg?t=1539967946142");
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.WCBLB-wt-title {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  color: rgb(60, 72, 91);
+}
+ .WCBLB-wt-text {
+   width: 50px;
+   height: 50px;
+   font-size: 10px;
+}
+
+.wrappercentrale-centerbottom-section {
+  width: 300px;
+  height: 650px;
+  /* margin: auto; */
+  background-color: powderblue;
+  display: inline-block;
+  /* float: left; */
+}
+
+.wrappercentrale-rightbottom-section {
+  width: 300px;
+  height: 650px;
+  /* margin: auto; */
+  background-color: lightgreen;
+  display: inline-block;
+  /* float: right; */
 }
 /*Fine section2wrap*/
